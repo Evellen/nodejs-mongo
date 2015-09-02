@@ -22,7 +22,6 @@ exports.find = function(obj,cb){
     User.find(obj,cb)
 }
 exports.update = function(query,update,cb){
-    console.log("User successfully updated!")
     User.update(query,update,cb)
 
 }
